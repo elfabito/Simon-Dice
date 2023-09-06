@@ -1,0 +1,31 @@
+ ​ body,
+        html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #game-container {
+            width: 600px;
+            /* Ajusta el ancho según sea necesario */
+            height: 600px;
+            /* Ajusta la altura según sea necesario */
+            /* background-color: lightgray; */
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border: 10px;
+            cursor: pointer;
+        }
